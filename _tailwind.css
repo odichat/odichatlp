@@ -3,3 +3,7 @@
 @plugin "./daisyui.js" {
   themes: lofi --default;
 }
+
+@utility btn {
+  @apply rounded-full;
+}
