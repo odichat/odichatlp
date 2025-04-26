@@ -14,4 +14,4 @@ group :jekyll_plugins do
   gem "jekyll-feed"
 end
 
-gem "tailwindcss-ruby", "~> 3.4"
+gem 'tailwindcss-ruby', '~> 4.0', '>= 4.0.4'
