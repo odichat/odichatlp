@@ -3,5 +3,3 @@
 @plugin "./daisyui.js" {
   themes: lofi --default;
 }
-
-@plugin "./daisyui-theme.js" {}
