@@ -33,11 +33,22 @@ jobs:
           gem install bundler
           bundle install
 
+      # Add this step to verify Tailwind is installed and processing
+      - name: Verify Tailwind Installation
+        run: |
+          bundle exec tailwindcss --help
+          echo "Contents of _site before build:"
+          ls -la _site || echo "_site doesn't exist yet"
+
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        # Add JEKYLL_ENV=production to ensure Tailwind minifies the output
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          echo "Contents of _site after build:"
+          ls -la _site
+          echo "Contents of _site/assets/css:"
+          ls -la _site/assets/css
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
