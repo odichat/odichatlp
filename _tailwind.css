@@ -1,9 +1,2 @@
 @import "tailwindcss";
 @source "./public/*.{html,php,erb}";
-@plugin "./daisyui.js" {
-  themes: lofi --default;
-}
-
-@utility btn {
-  @apply rounded-full;
-}
