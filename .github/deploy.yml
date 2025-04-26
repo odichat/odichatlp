@@ -18,28 +18,20 @@ jobs:
           ruby-version: 3.3.4
           # bundler-cache: true # This will cache your bundle dependencies
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+      - name: Install Ruby Dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
+      - name: Build Jekyll Site
         env:
-          JEKYLL_ENV: production
+          GITHUB_BRANCH: ${{ vars.HEAD }}
+        run: |
+          bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_site/"
-
-  deploy:
-    if: github.ref == 'refs/heads/master'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
