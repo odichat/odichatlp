@@ -16,7 +16,16 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.4
-          # bundler-cache: true # This will cache your bundle dependencies
+          bundler-cache: true # Enable this for faster builds
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node.js Dependencies
+        run: |
+          npm install -D tailwindcss@latest daisyui@latest
 
       - name: Install Ruby Dependencies
         run: |
@@ -26,6 +35,7 @@ jobs:
       - name: Build Jekyll Site
         env:
           GITHUB_BRANCH: ${{ vars.HEAD }}
+          JEKYLL_ENV: production
         run: |
           bundle exec jekyll build
 
