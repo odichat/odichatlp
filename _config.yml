@@ -7,6 +7,3 @@ description: "AI Agents for WhatsApp Business"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-tailwindcss:
-  config: "./tailwind.config.js"
