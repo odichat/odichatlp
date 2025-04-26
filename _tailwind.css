@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @source "./public/*.{html,php,erb}";
-@plugin "./daisyui.js" {
+@plugin "./daisyui.js";
+
+@plugin "./daisyui-theme.js" {
   themes: lofi --default;
 }
