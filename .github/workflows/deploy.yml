@@ -44,10 +44,20 @@ jobs:
         # Add JEKYLL_ENV=production to ensure Tailwind minifies the output
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          echo "Contents of _site after build:"
-          ls -la _site
-          echo "Contents of _site/assets/css:"
-          ls -la _site/assets/css
+          
+      # Add these debug steps to inspect the _site directory
+      - name: Debug - Show _site contents
+        run: |
+          echo "=== Contents of _site directory ==="
+          ls -la _site/
+          echo "=== Contents of _site/assets ==="
+          ls -la _site/assets/
+          echo "=== Contents of _site/assets/css ==="
+          ls -la _site/assets/css/
+          echo "=== First few lines of styles.css ==="
+          head -n 20 _site/assets/css/styles.css || echo "styles.css not found!"
+          echo "=== Size of styles.css ==="
+          stat -f %z _site/assets/css/styles.css || echo "Could not get file size!"
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
