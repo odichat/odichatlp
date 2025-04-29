@@ -15,6 +15,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Clear all caches
+        run: |
+          rm -rf ~/.bundle
+          rm -rf vendor/bundle
+          rm -rf .jekyll-cache
+          rm -rf _site
+
       - name: Checkout
         uses: actions/checkout@v4
 
