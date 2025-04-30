@@ -11,7 +11,7 @@ title: "Odichat"
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex">
           <div class="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            <span class="font-semibold text-info">Early Access 🚀</span>
+            <span class="font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-[#FF8F2D] to-gray-500">Early Access 🚀</span>
             <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span>
             <a href="#" class="flex items-center gap-x-1">
               <span class="absolute inset-0" aria-hidden="true"></span>
@@ -22,7 +22,7 @@ title: "Odichat"
             </a>
           </div>
         </div>
-        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl">Never Lose a Customer Again</h1>
+        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl ">Never Lose a Customer Again</h1>
         <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="#" class="btn btn-primary">Train Your WhatsApp AI Agent</a>
@@ -70,7 +70,7 @@ title: "Odichat"
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:ml-auto lg:pt-4 lg:pl-4">
         <div class="lg:max-w-lg">
-          <h2 class="text-base/7 font-semibold text-info">It's not your fault</h2>
+          <h2 class="text-base/7 font-semibold bg-gradient-to-r from-gray-700 via-[#E15C29] to-gray-500 inline-block text-transparent bg-clip-text">It's not your fault</h2>
           <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl">You're not ignoring your customers. You're overwhelmed.</p>
           <p class="mt-6 text-lg/8 text-base-content">When you're running a business, every message matters — but answering hundreds of repetitive customer questions every day? Impossible.</p>
           <p class="mt-6 text-lg/8 text-base-content">Limited time, limited staff, and the stress of managing it all means valuable leads slip away. It's not your fault. Until now, there was no easy way to stay on top without burning yourself out.</p>
@@ -91,7 +91,7 @@ title: "Odichat"
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pt-4 lg:pr-8">
         <div class="lg:max-w-lg">
-          <h2 class="text-base/7 font-semibold text-info">Let us handle it</h2>
+          <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-[#027F94] to-gray-500">Let us handle it</h2>
           <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl">Win every customer conversation (automatically)</p>
           <p class="mt-6 text-lg/8 text-gray-600">Odichat lets you easily create an AI-powered customer service agent, trained on your documents (FAQs, service policies, catalogs) — and launches it directly inside WhatsApp.</p>
           <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
@@ -140,7 +140,7 @@ title: "Odichat"
 <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl sm:text-center">
-      <h2 class="text-base/7 font-semibold text-info">How it works</h2>
+      <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500">How it works</h2>
       <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl sm:text-balance">From Overwhelmed To Always On</p>
       <p class="mt-6 text-lg/8 text-gray-600">Upload your documents (FAQs, price lists, policies, etc.). Train your Odichat AI Agent with a few clicks and deploy it directly to your WhatsApp Business account.</p>
     </div>
