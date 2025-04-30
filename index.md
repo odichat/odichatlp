@@ -147,7 +147,7 @@ title: "Odichat"
   </div>
   <div class="relative overflow-hidden pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <img src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png" alt="App screenshot" class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10" width="2432" height="1442">
+      <img src="https://odisea.nyc3.cdn.digitaloceanspaces.com/assets/screenshot_playground.jpeg" alt="App screenshot" class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10" width="2432" height="1442">
       <div class="relative" aria-hidden="true">
         <div class="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]"></div>
       </div>
