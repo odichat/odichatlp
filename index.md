@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Odichat"
+title: "Home"
 ---
 <!-- ************************* -->
 <!-- Hero -->
 <!-- ************************* -->
 <div class="">
   <div class="relative isolate pt-1">
-    <div class="mx-auto max-w-7xl px-6 py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 py-8 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex">
           <div class="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -22,7 +22,7 @@ title: "Odichat"
             </a>
           </div>
         </div>
-        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl ">Never Lose a Customer Again</h1>
+        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl ">Never Lose a Lead Again</h1>
         <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="#" class="btn btn-primary">Train Your WhatsApp AI Agent</a>

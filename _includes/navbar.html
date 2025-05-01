@@ -1,14 +1,13 @@
 <div class="navbar bg-base-100 shadow-sm">
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl">
+    <a class="btn btn-ghost text-xl" href="{{ "/" | relative_url }}">
       <img src="{{ "/assets/images/odi-gradient.svg" | relative_url }}" alt="Odichat" class="w-32">
     </a>
   </div>
   <div class="flex-none">
-    <ul class="menu menu-horizontal px-1 text-base-content">
-      <li><a>Pricing</a></li>
-      <li><a>Features</a></li>
-      <li><a>Sign In</a></li>
+    <ul class="menu menu-horizontal px-1 text-base-content flex items-center">
+      <li><a href="{{ "/pricing" | relative_url }}">Pricing</a></li>
+      <li><a href="https://dashboard.odichat.app" target="_blank" class="btn">Get Started</a></li>
     </ul>
   </div>
 </div>
