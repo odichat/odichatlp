@@ -26,7 +26,7 @@ title: "Home"
         <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="#" class="btn btn-primary">Train Your WhatsApp AI Agent</a>
-          <a href="#" class="text-sm/6 font-semibold text-base-content">Pricing <span aria-hidden="true">→</span></a>
+          <a href="{{ "/pricing" | relative_url }}" class="text-sm/6 font-semibold text-base-content">Pricing <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="mt-16 sm:mt-24 lg:mt-0 lg:flex-1 flex items-center justify-center max-w-[366px]">
