@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="330.4" height="344.4"><svg version="1.1" id="SvgjsSvg1008" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330.4 344.4" style="enable-background:new 0 0 330.4 344.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SvgjsLinearGradient1007" gradientUnits="userSpaceOnUse" x1="34.0121" y1="172.2209" x2="296.3928" y2="172.2209">
+	<stop offset="0" style="stop-color:#E15B29"></stop>
+	<stop offset="0.3944" style="stop-color:#F8822D"></stop>
+	<stop offset="0.512" style="stop-color:#FF8F2E"></stop>
+	<stop offset="0.6345" style="stop-color:#FF9A30"></stop>
+	<stop offset="0.8517" style="stop-color:#FFB936"></stop>
+	<stop offset="1" style="stop-color:#FFD13A"></stop>
+</linearGradient>
+<path class="st0" d="M296.4,41H99.6c-21.8,0-41.1,10.6-53.1,27C38.7,78.9,34,92.2,34,106.6c0,36.2,29.4,65.6,65.6,65.6H34v131.2
+	h196.8c36.2,0,65.6-29.4,65.6-65.6l0,0c0-8.2-1.5-16.1-4.3-23.3c-9.4-24.7-33.3-42.3-61.3-42.3h65.6V41z"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
