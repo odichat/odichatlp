@@ -196,86 +196,80 @@ title: "Home"
     <span class="topper">Pricing</span>
     <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Choose the right plan for you</p>
   </div>
-  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Choose a plan packed with the best features to make sure you never miss a lead again and boost revenue.</p>
   <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
     <div class="relative rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
-      <h3 id="tier-personal" class="text-base/7 font-semibold text-primary">Personal</h3>
+      <h3 id="tier-personal" class="text-base/7 font-semibold text-primary">Pro</h3>
       <p class="mt-4 flex items-baseline gap-x-2">
         <span class="text-5xl font-semibold tracking-tight text-gray-900">$19.99</span>
         <span class="text-base text-gray-500">/month</span>
       </p>
-      <p class="mt-6 text-base/7 text-gray-600">The perfect plan if you&#039;re just getting started with our product.</p>
+      <p class="mt-6 text-base/7 text-gray-600">The perfect plan if you have multiple phone numbers to manage.</p>
       <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          25 products
+          3 AI Agents
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Up to 10,000 subscribers
+          600 chats / month
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Audience segmentation
+          7 OpenAI models to choose from
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Advanced analytics
+          Priority emails support
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Email support
+          Analytics (coming soon)
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Marketing automations
+          Schedule appointments (coming soon)
         </li>
       </ul>
       <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">Get started today</a>
     </div>
     <div class="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-t-none sm:p-10 lg:mx-0 lg:rounded-tr-3xl lg:rounded-bl-none">
-      <h3 id="tier-team" class="text-base/7 font-semibold text-primary">Team</h3>
+      <h3 id="tier-team" class="text-base/7 font-semibold text-primary">Starter</h3>
       <p class="mt-4 flex items-baseline gap-x-2">
         <span class="text-5xl font-semibold tracking-tight text-gray-900">$9.99</span>
         <span class="text-base text-gray-500">/month</span>
       </p>
-      <p class="mt-6 text-base/7 text-gray-600">A plan that scales with your rapidly growing business.</p>
+      <p class="mt-6 text-base/7 text-gray-600">A plan to get your feet wet with AI customer service automation.</p>
       <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Priority support
+          1 AI Agent
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Single sign-on
+          150 chats / month
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Enterprise integrations
-        </li>
-        <li class="flex gap-x-3">
-          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
-          </svg>
-          Custom reporting tools
+          3 OpenAI models to choose from
         </li>
       </ul>
       <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">Get started today</a>
@@ -287,7 +281,7 @@ title: "Home"
 <!-- ************************* -->
 <!-- FAQs -->
 <!-- ************************* -->
-<div class="bg-white">
+<!-- <div class="bg-white">
   <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
       <div class="lg:col-span-5">
@@ -313,3 +307,4 @@ title: "Home"
     </div>
   </div>
 </div>
+-->
