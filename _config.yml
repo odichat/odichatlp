@@ -1,9 +1,14 @@
 url: "https://odichat.app" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Odichat" # the name of your site, e.g. ACME Corp.
+tagline: "AI Agents for WhatsApp Business"
 author: "Odisea AI"
-description: "AI Agents for WhatsApp Business"
+description: "Automate your WhatsApp customer service. Odichat is  a no-code platform to train and deploy AI agents in WhatsApp Business"
 email: "odichat.app@gmail.com"
+twitter:
+  username: "__andresu__"
+  card: "summary"
+logo: "/assets/images/logo.svg"
 
 plugins:
   - jekyll-sitemap

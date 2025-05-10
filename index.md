@@ -5,7 +5,7 @@ title: "Home"
 <!-- ************************* -->
 <!-- Hero -->
 <!-- ************************* -->
-<div class="">
+<div class="bg-white">
   <div class="relative isolate pt-1">
     <div class="mx-auto max-w-7xl px-6 py-8 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
@@ -26,7 +26,7 @@ title: "Home"
         <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <a href="#" class="btn btn-primary">Train Your WhatsApp AI Agent</a>
-          <a href="{{ "/pricing" | relative_url }}" class="text-sm/6 font-semibold text-base-content">Pricing <span aria-hidden="true">→</span></a>
+          <a href="#pricing" class="text-sm/6 font-semibold text-base-content">Pricing <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="mt-16 sm:mt-24 lg:mt-0 lg:flex-1 flex items-center justify-center max-w-[366px]">
@@ -52,12 +52,11 @@ title: "Home"
 <!-- ************************* -->
 <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/el_barich_2.png" alt="Transistor" width="158" height="48">
-      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindcss.com/plus-assets/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
-      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindcss.com/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
-      <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindcss.com/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
-      <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindcss.com/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+    <div class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+      <img class="col-span-2 max-h-22 w-full object-contain lg:col-span-1" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/el_barich_2.png" alt="Transistor" width="158" height="48">
+      <img class="col-span-2 max-h-22 w-full object-contain lg:col-span-1" src="https://laodisea.ai/assets/img/katys_logo_gray.png" alt="Reform" width="158" height="48">
+      <img class="col-span-2 max-h-22 w-full object-contain lg:col-span-1" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/sahjten.png" alt="Tuple" width="158" height="48">
+      <img class="col-span-2 max-h-22 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://playground.laodisea.ai/assets/images/smd.jpg" alt="SavvyCal" width="158" height="48">
     </div>
   </div>
 </div>
@@ -141,7 +140,7 @@ title: "Home"
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl sm:text-center">
       <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500">How it works</h2>
-      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl sm:text-balance">From Overwhelmed To Always On</p>
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl sm:text-balance">Automate WhatsApp In 3 Simple Steps</p>
       <p class="mt-6 text-lg/8 text-gray-600">Upload your documents (FAQs, price lists, policies, etc.). Train your Odichat AI Agent with a few clicks and deploy it directly to your WhatsApp Business account.</p>
     </div>
   </div>
@@ -168,7 +167,7 @@ title: "Home"
         <div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-r from-primary to-secondary opacity-[0.45]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
       </div>
       <div class="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl" aria-hidden="true">
-        <div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-r from-[#ff4694] to-[#776fff] opacity-25" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-r from-yellow-300 to-orange-300 opacity-25" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
       </div>
       <div class="relative mx-auto max-w-2xl lg:mx-0">
         <img class="h-12 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-white.svg" alt="">
@@ -185,6 +184,105 @@ title: "Home"
     </div>
   </div>
 </div>
+
+<!-- ************************* -->
+<!-- Pricing -->
+<!-- ************************* -->
+<div id="pricing" class="relative isolate bg-white px-6 py-8 sm:py-32 lg:px-8">
+  <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
+    <div class="mx-auto aspect-1155/678 w-[72.1875rem] bg-linear-to-tr from-stone-100 to-orange-300 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="mx-auto max-w-4xl text-center">
+    <span class="topper">Pricing</span>
+    <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Choose the right plan for you</p>
+  </div>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.</p>
+  <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+    <div class="relative rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
+      <h3 id="tier-personal" class="text-base/7 font-semibold text-primary">Personal</h3>
+      <p class="mt-4 flex items-baseline gap-x-2">
+        <span class="text-5xl font-semibold tracking-tight text-gray-900">$19.99</span>
+        <span class="text-base text-gray-500">/month</span>
+      </p>
+      <p class="mt-6 text-base/7 text-gray-600">The perfect plan if you&#039;re just getting started with our product.</p>
+      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          25 products
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Up to 10,000 subscribers
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Audience segmentation
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Advanced analytics
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Email support
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Marketing automations
+        </li>
+      </ul>
+      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">Get started today</a>
+    </div>
+    <div class="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-t-none sm:p-10 lg:mx-0 lg:rounded-tr-3xl lg:rounded-bl-none">
+      <h3 id="tier-team" class="text-base/7 font-semibold text-primary">Team</h3>
+      <p class="mt-4 flex items-baseline gap-x-2">
+        <span class="text-5xl font-semibold tracking-tight text-gray-900">$9.99</span>
+        <span class="text-base text-gray-500">/month</span>
+      </p>
+      <p class="mt-6 text-base/7 text-gray-600">A plan that scales with your rapidly growing business.</p>
+      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Priority support
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Single sign-on
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Enterprise integrations
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          Custom reporting tools
+        </li>
+      </ul>
+      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">Get started today</a>
+    </div>
+  </div>
+</div>
+
 
 <!-- ************************* -->
 <!-- FAQs -->
