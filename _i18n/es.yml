@@ -1,3 +1,8 @@
+components:
+  navbar:
+    signup: Iniciar Sesión
+    links:
+      - Precios
 pages:
   home:
     hero:
