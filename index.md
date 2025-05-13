@@ -10,9 +10,9 @@ title: "Home"
     <div class="mx-auto max-w-7xl px-6 py-8 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex">
-          <div class="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          <!--  <div class="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             <span class="font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-[#FF8F2D] to-gray-500">Early Access 🚀</span>
-            <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span>
+            <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span> 
             <a href="#" class="flex items-center gap-x-1">
               <span class="absolute inset-0" aria-hidden="true"></span>
               20% Off (Ends Soon!)
@@ -20,7 +20,7 @@ title: "Home"
                 <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
               </svg>
             </a>
-          </div>
+          </div> -->
         </div>
         <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl ">Never Lose a Lead Again</h1>
         <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
@@ -158,32 +158,42 @@ title: "Home"
 <!-- ************************* -->
 <!-- Testimonials -->
 <!-- ************************* -->
-<div class="bg-white py-16 sm:py-24">
-  <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-    <div class="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
-      <img class="absolute inset-0 size-full object-cover brightness-150 saturate-0" src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="">
-      <div class="absolute inset-0 bg-gray-900/90 mix-blend-multiply"></div>
-      <div class="absolute -top-56 -left-80 transform-gpu blur-3xl" aria-hidden="true">
-        <div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-r from-primary to-secondary opacity-[0.45]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-      </div>
-      <div class="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl" aria-hidden="true">
-        <div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-r from-yellow-300 to-orange-300 opacity-25" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-      </div>
-      <div class="relative mx-auto max-w-2xl lg:mx-0">
-        <img class="h-12 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-white.svg" alt="">
-        <figure>
-          <blockquote class="mt-6 text-lg font-semibold text-white sm:text-xl/8">
-            <p>“Since we adopted Odichat, our customer service process has improved by 70%. Many customers ask very repetitive questions, which used to consume a lot of our time. Odichat is a practical and effective solution if you want to automate your customer support.”</p>
+<section class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div class="flex flex-col pb-10 sm:pb-16 lg:pr-8 lg:pb-0 xl:pr-20">
+        <img class="h-12 self-start" src="https://laodisea.ai/assets/img/katys_logo_gray.png" alt="">
+        <figure class="mt-10 flex flex-auto flex-col justify-between">
+          <blockquote class="text-lg/8 text-gray-900">
+            <p>“Before Odichat, our team was overwhelmed with repetitive WhatsApp inquiries about product availability and store hours. Now, our AI assistant handles around 30 daily chats, freeing up our staff to focus on in-store customers. It's like having an extra team member who works 24/7.”</p>
           </blockquote>
-          <figcaption class="mt-6 text-base text-white">
-            <div class="font-semibold">Elizabeth Barich</div>
-            <div class="mt-1">Owner, Barich Beauty (Ecommerce)</div>
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img class="size-14 rounded-full bg-gray-50" src="{{ '/assets/images/hacobo.png' | relative_url }}" alt="">
+            <div class="text-base">
+              <div class="font-semibold text-gray-900">Hacobo Barich</div>
+              <div class="mt-1 text-gray-500">Founder of KatysVE</div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-8 xl:pl-20">
+        <img class="h-12 self-start" src="https://playground.laodisea.ai/assets/images/smd.jpg" alt="">
+        <figure class="mt-10 flex flex-auto flex-col justify-between">
+          <blockquote class="text-lg/8 text-gray-900">
+            <p>“We used to spend hours answering the same questions about lab tests and pricing on WhatsApp. With Odichat, our AI assistant provides instant, accurate responses, reducing our team's workload and improving patient satisfaction. It's been a game-changer for our operations.”</p>
+          </blockquote>
+          <figcaption class="mt-10 flex items-center gap-x-6">
+            <img class="size-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <div class="text-base">
+              <div class="font-semibold text-gray-900">Gamal</div>
+              <div class="mt-1 text-gray-500">Founder of Servicio Médico Dianóstico</div>
+            </div>
           </figcaption>
         </figure>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- ************************* -->
 <!-- Pricing -->
