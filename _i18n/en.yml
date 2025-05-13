@@ -1,0 +1,48 @@
+pages:
+  home:
+    hero:
+      headline: Never Lose a Lead Again
+      subheadline: Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.
+      cta: Train Your WhatsApp AI Agent
+      secondary_cta: Pricing
+    how_it_works:
+      topper: How It Works
+      headline: Automate WhatsApp In 3 Simple Steps
+      subheadline: Upload your documents (FAQs, price lists, policies, etc.). Train your Odichat AI Agent with a few clicks and deploy it directly to your WhatsApp Business account.
+    testimonials:
+      topper: Testimonials
+      headline: Companies that use Odichat to automate WhatsApp
+      katys:
+        text: Before Odichat, our team was overwhelmed with repetitive WhatsApp inquiries about product availability and store hours. Now, our AI assistant handles around 30 daily chats, freeing up our staff to focus on in-store customers. It's like having an extra team member who works 24/7.
+        role: Founder of KatysVE
+        name: Hacobo Barich
+      smd:
+        text: We used to spend hours answering the same questions about lab tests and pricing on WhatsApp. With Odichat, our AI assistant provides instant, accurate responses, reducing our team's workload and improving patient satisfaction. It's been a game-changer for our operations.
+        role: Founder of Servicio Medico Diagnostico
+        name: Gamal
+    pricing:
+      topper: Pricing
+      headline: Simple pricing for every business
+      subheadline: No hidden fees, no contracts, no surprises.
+      pro:
+        name: Pro
+        price: "19.99"
+        description: The perfect plan if you multiple phone numbers to manage.
+        features:
+          - 3 AI agents
+          - 600 chats per month
+          - 7 OpenAI models to choose from
+          - Priority support
+          - Advanced analytics (coming soon)
+          - Schedule appointments (coming soon)
+        cta: Get Started
+      starter:
+        name: Starter
+        price: "9.99"
+        description: A plan to get your feet wet with AI customer service automation.
+        features:
+          - 1 AI agent
+          - 100 chats per month
+          - 3 OpenAI models to choose from
+          - Basic analytics (coming soon)
+        cta: Get Started

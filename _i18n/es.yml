@@ -1,0 +1,48 @@
+pages:
+  home:
+    hero:
+      headline: No vuelvas a perder un lead
+      subheadline: Odichat es el constructor de chatbots de IA sin código que entrena a tu agente de servicio al cliente y lo despliega en WhatsApp — para que puedas atender a cada cliente, 24/7, sin mover un dedo.
+      cta: Entrena tu agente de IA de WhatsApp
+      secondary_cta: Precios
+    how_it_works:
+      topper: Cómo Funciona
+      headline: Automatiza WhatsApp en 3 Pasos Simples
+      subheadline: Sube tus documentos (FAQs, listas de precios, políticas, etc.). Entrena a tu agente de IA de Odichat con unos pocos clics y desplíalo directamente a tu cuenta de WhatsApp Business.
+    testimonials:
+      topper: Testimonios
+      headline: Empresas que usan Odichat para automatizar WhatsApp
+      katys:
+        text: Antes de Odichat, nuestro equipo estaba abrumado con consultas repetitivas en WhatsApp sobre disponibilidad de productos y horarios de la tienda. Ahora, nuestro asistente de IA maneja alrededor de 30 chats diarios, permitiendo que nuestro personal se enfoque en los clientes en la tienda. Es como tener un miembro adicional del equipo que trabaja 24/7.
+        role: Fundador de KatysVE
+        name: Hacobo Barich
+      smd:
+        text: Solíamos pasar horas respondiendo las mismas preguntas sobre pruebas de laboratorio y precios en WhatsApp. Con Odichat, nuestro asistente de IA proporciona respuestas instantáneas y precisas, reduciendo la carga de trabajo de nuestro equipo y mejorando la satisfacción del paciente. Ha sido un cambio revolucionario para nuestras operaciones.
+        role: Fundador de Servicio Médico Diagnóstico
+        name: Gamal
+    pricing:
+      topper: Precios
+      headline: Precios sencillos para cada empresa
+      subheadline: Sin tarifas ocultas, sin contratos, sin sorpresas.
+      pro:
+        name: Pro
+        price: "19.99"
+        description: El plan perfecto si tienes varios números de teléfono para gestionar.
+        features:
+          - 3 agentes de IA
+          - 600 chats por mes
+          - 7 modelos de OpenAI para elegir
+          - Soporte prioritario
+          - Analíticas avanzadas (próximamente)
+          - Programar citas (próximamente)
+        cta: Comenzar
+      starter:
+        name: Starter
+        price: "9.99"
+        description: Un plan para iniciarte en la automatización del servicio al cliente con IA.
+        features:
+          - 1 agente de IA
+          - 100 chats por mes
+          - 3 modelos de OpenAI para elegir
+          - Analíticas básicas (próximamente)
+        cta: Comenzar

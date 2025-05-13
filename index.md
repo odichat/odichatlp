@@ -22,11 +22,15 @@ title: "Home"
             </a>
           </div> -->
         </div>
-        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl ">Never Lose a Lead Again</h1>
-        <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Odichat is the no-code AI chatbot builder that trains your customer service agent and deploys it on WhatsApp — so you can serve every customer, 24/7, without lifting a finger.</p>
+        <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl">
+          {% t pages.home.hero.headline %}
+        </h1>
+        <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+          {% t pages.home.hero.subheadline %}
+        </p>
         <div class="mt-10 flex items-center gap-x-6">
-          <a href="#" class="btn btn-primary">Train Your WhatsApp AI Agent</a>
-          <a href="#pricing" class="text-sm/6 font-semibold text-base-content">Pricing <span aria-hidden="true">→</span></a>
+          <a href="https://dashboard.odichat.app" class="btn btn-primary">{% t pages.home.hero.cta %}</a>
+          <a href="#pricing" class="text-sm/6 font-semibold text-base-content">{% t pages.home.hero.secondary_cta %} <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="mt-16 sm:mt-24 lg:mt-0 lg:flex-1 flex items-center justify-center max-w-[366px]">
@@ -139,9 +143,11 @@ title: "Home"
 <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl sm:text-center">
-      <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500">How it works</h2>
-      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl sm:text-balance">Automate WhatsApp In 3 Simple Steps</p>
-      <p class="mt-6 text-lg/8 text-gray-600">Upload your documents (FAQs, price lists, policies, etc.). Train your Odichat AI Agent with a few clicks and deploy it directly to your WhatsApp Business account.</p>
+      <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500">
+        {% t pages.home.how_it_works.topper %}
+      </h2>
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-base-content sm:text-5xl sm:text-balance">{% t pages.home.how_it_works.headline %}</p>
+      <p class="mt-6 text-lg/8 text-gray-600">{% t pages.home.how_it_works.subheadline %}</p>
     </div>
   </div>
   <div class="relative overflow-hidden pt-16">
@@ -160,18 +166,24 @@ title: "Home"
 <!-- ************************* -->
 <section class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="topper">{% t pages.home.testimonials.topper %}</h2>
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+        {% t pages.home.testimonials.headline %}
+      </p>
+    </div>
+    <div class="mx-auto pt-16 grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="flex flex-col pb-10 sm:pb-16 lg:pr-8 lg:pb-0 xl:pr-20">
         <img class="h-12 self-start" src="https://laodisea.ai/assets/img/katys_logo_gray.png" alt="">
         <figure class="mt-10 flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
-            <p>“Before Odichat, our team was overwhelmed with repetitive WhatsApp inquiries about product availability and store hours. Now, our AI assistant handles around 30 daily chats, freeing up our staff to focus on in-store customers. It's like having an extra team member who works 24/7.”</p>
+            <p>“{% t pages.home.testimonials.katys.text %}”</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
             <img class="size-14 rounded-full bg-gray-50" src="{{ '/assets/images/hacobo.png' | relative_url }}" alt="">
             <div class="text-base">
-              <div class="font-semibold text-gray-900">Hacobo Barich</div>
-              <div class="mt-1 text-gray-500">Founder of KatysVE</div>
+              <div class="font-semibold text-gray-900">{% t pages.home.testimonials.katys.name %}</div>
+              <div class="mt-1 text-gray-500">{% t pages.home.testimonials.katys.role %}</div>
             </div>
           </figcaption>
         </figure>
@@ -180,13 +192,13 @@ title: "Home"
         <img class="h-12 self-start" src="https://playground.laodisea.ai/assets/images/smd.jpg" alt="">
         <figure class="mt-10 flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
-            <p>“We used to spend hours answering the same questions about lab tests and pricing on WhatsApp. With Odichat, our AI assistant provides instant, accurate responses, reducing our team's workload and improving patient satisfaction. It's been a game-changer for our operations.”</p>
+            <p>“{% t pages.home.testimonials.smd.text %}”</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
             <img class="size-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
             <div class="text-base">
-              <div class="font-semibold text-gray-900">Gamal</div>
-              <div class="mt-1 text-gray-500">Founder of Servicio Médico Dianóstico</div>
+              <div class="font-semibold text-gray-900">{% t pages.home.testimonials.smd.name %}</div>
+              <div class="mt-1 text-gray-500">{% t pages.home.testimonials.smd.role %}</div>
             </div>
           </figcaption>
         </figure>
@@ -203,86 +215,86 @@ title: "Home"
     <div class="mx-auto aspect-1155/678 w-[72.1875rem] bg-linear-to-tr from-stone-100 to-orange-300 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
   </div>
   <div class="mx-auto max-w-4xl text-center">
-    <span class="topper">Pricing</span>
-    <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Choose the right plan for you</p>
+    <span class="topper">{% t pages.home.pricing.topper %}</span>
+    <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">{% t pages.home.pricing.headline %}</p>
   </div>
-  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Choose a plan packed with the best features to make sure you never miss a lead again and boost revenue.</p>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">{% t pages.home.pricing.subheadline %}</p>
   <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
     <div class="relative rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
-      <h3 id="tier-personal" class="text-base/7 font-semibold text-primary">Pro</h3>
+      <h3 id="tier-personal" class="text-base/7 font-semibold text-primary">{% t pages.home.pricing.pro.name %}</h3>
       <p class="mt-4 flex items-baseline gap-x-2">
-        <span class="text-5xl font-semibold tracking-tight text-gray-900">$19.99</span>
+        <span class="text-5xl font-semibold tracking-tight text-gray-900">${% t pages.home.pricing.pro.price %}</span>
         <span class="text-base text-gray-500">/month</span>
       </p>
-      <p class="mt-6 text-base/7 text-gray-600">The perfect plan if you have multiple phone numbers to manage.</p>
+      <p class="mt-6 text-base/7 text-gray-600">{% t pages.home.pricing.pro.description %}</p>
       <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          3 AI Agents
+          {% t pages.home.pricing.pro.features.0 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          600 chats / month
+          {% t pages.home.pricing.pro.features.1 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          7 OpenAI models to choose from
+          {% t pages.home.pricing.pro.features.2 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Priority emails support
+          {% t pages.home.pricing.pro.features.3 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Analytics (coming soon)
+          {% t pages.home.pricing.pro.features.4 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Schedule appointments (coming soon)
+          {% t pages.home.pricing.pro.features.5 %}
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">Get started today</a>
+      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">{% t pages.home.pricing.pro.cta %}</a>
     </div>
     <div class="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-t-none sm:p-10 lg:mx-0 lg:rounded-tr-3xl lg:rounded-bl-none">
-      <h3 id="tier-team" class="text-base/7 font-semibold text-primary">Starter</h3>
+      <h3 id="tier-team" class="text-base/7 font-semibold text-primary">{% t pages.home.pricing.starter.name %}</h3>
       <p class="mt-4 flex items-baseline gap-x-2">
-        <span class="text-5xl font-semibold tracking-tight text-gray-900">$9.99</span>
+        <span class="text-5xl font-semibold tracking-tight text-gray-900">${% t pages.home.pricing.starter.price %}</span>
         <span class="text-base text-gray-500">/month</span>
       </p>
-      <p class="mt-6 text-base/7 text-gray-600">A plan to get your feet wet with AI customer service automation.</p>
+      <p class="mt-6 text-base/7 text-gray-600">{% t pages.home.pricing.starter.description %}</p>
       <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          1 AI Agent
+          {% t pages.home.pricing.starter.features.0 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          150 chats / month
+          {% t pages.home.pricing.starter.features.1 %}
         </li>
         <li class="flex gap-x-3">
           <svg class="h-6 w-5 flex-none text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          3 OpenAI models to choose from
+          {% t pages.home.pricing.starter.features.2 %}
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">Get started today</a>
+      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">{% t pages.home.pricing.starter.cta %}</a>
     </div>
   </div>
 </div>
