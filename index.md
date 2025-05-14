@@ -265,7 +265,7 @@ title: "Home"
           {% t pages.home.pricing.pro.features.5 %}
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">{% t pages.home.pricing.pro.cta %}</a>
+      <a href="https://dashboard.odichat.app/subscriptions/checkout?price_id=price_1ROirkCrK57Omz3AcEbU0wla" aria-describedby="tier-personal" class="mt-8 block rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10 ">{% t pages.home.pricing.pro.cta %}</a>
     </div>
     <div class="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-t-none sm:p-10 lg:mx-0 lg:rounded-tr-3xl lg:rounded-bl-none">
       <h3 id="tier-team" class="text-base/7 font-semibold text-primary">{% t pages.home.pricing.starter.name %}</h3>
@@ -294,7 +294,7 @@ title: "Home"
           {% t pages.home.pricing.starter.features.2 %}
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">{% t pages.home.pricing.starter.cta %}</a>
+      <a href="https://dashboard.odichat.app/subscriptions/checkout?price_id=price_1ROirkCrK57Omz3A7fg881pg" aria-describedby="tier-team" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-primary ring-1 ring-primary ring-inset hover:ring-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:mt-10">{% t pages.home.pricing.starter.cta %}</a>
     </div>
   </div>
 </div>
