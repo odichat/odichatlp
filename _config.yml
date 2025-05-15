@@ -8,7 +8,7 @@ email: "odichat.app@gmail.com"
 twitter:
   username: "__andresu__"
   card: "summary"
-image: "/assets/images/logo.svg"
+image: "/assets/images/logo_open_graph.png"
 
 plugins:
   - jekyll-sitemap
