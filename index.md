@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Automate customer service in WhatsApp with AI"
 ---
 <!-- ************************* -->
 <!-- Hero -->
