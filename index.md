@@ -11,17 +11,19 @@ image: "/assets/images/logo_open_graph.png"
     <div class="mx-auto max-w-7xl px-6 py-8 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex">
-          <!--  <div class="relative flex items-center gap-x-4 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            <span class="font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-[#FF8F2D] to-gray-500">Early Access 🚀</span>
-            <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span> 
+          <div class="relative flex items-center gap-x-2 rounded-full bg-white px-4 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <span class="font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-[#FF8F2D] to-gray-500">
+            <img src="https://odisea.nyc3.cdn.digitaloceanspaces.com/odichat/assets/meta-icon.webp" class="h-3.5 w-3.5 md:h-4 md:w-4">
+            </span>
+            <!-- <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span> -->
             <a href="#" class="flex items-center gap-x-1">
               <span class="absolute inset-0" aria-hidden="true"></span>
-              20% Off (Ends Soon!)
-              <svg class="-mr-2 size-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+              Meta Tech Provider
+              <!-- <svg class="-mr-2 size-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                 <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
-              </svg>
+              </svg> -->
             </a>
-          </div> -->
+          </div>
         </div>
         <h1 class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-base-content sm:text-7xl">
           {% t pages.home.hero.headline %}
