@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Automate customer service in WhatsApp with AI"
+image: "/assets/images/logo_open_graph.png"
 ---
 <!-- ************************* -->
 <!-- Hero -->
