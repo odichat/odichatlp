@@ -1,5 +1,6 @@
 components:
   navbar:
+    signin: Log In
     signup: Sign Up
     links:
       - Pricing

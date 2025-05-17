@@ -7,9 +7,10 @@
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 text-base-content flex items-center">
       {% for link in site.translations[site.lang].components.navbar.links %}
-      <li><a href="#pricing">{{ link }}</a></li>
+      
       {% endfor %}
-      <li><a href="https://dashboard.odichat.app" target="_blank" class="btn">{% t components.navbar.signup %}</a></li>
+      <li><a href="https://dashboard.odichat.app/users/sign_in" target="_blank" class="btn btn-link">{% t components.navbar.signin %}</a></li>
+      <li><a href="https://dashboard.odichat.app/users/sign_up" target="_blank" class="btn btn-outline btn-primary ">{% t components.navbar.signup %}</a></li>
     </ul>
   </div>
 </div>

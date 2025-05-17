@@ -1,6 +1,7 @@
 components:
   navbar:
-    signup: Iniciar Sesión
+    signin: Iniciar Sesión
+    signup: Registrarse
     links:
       - Precios
 pages:
