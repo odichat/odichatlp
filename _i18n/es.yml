@@ -23,9 +23,9 @@ pages:
         role: Fundador de KatysVE
         name: Hacobo Barich
       smd:
-        text: Solíamos pasar horas respondiendo las mismas preguntas sobre pruebas de laboratorio y precios en WhatsApp. Con Odichat, nuestro asistente de IA proporciona respuestas instantáneas y precisas, reduciendo la carga de trabajo de nuestro equipo y mejorando la satisfacción del paciente. Ha sido un cambio revolucionario para nuestras operaciones.
-        role: Fundador de Servicio Médico Diagnóstico
-        name: Gamal
+        text: Solíamos pasar horas respondiendo las mismas preguntas en WhatsApp. Con Odichat, nuestro asistente de IA proporciona respuestas instantáneas y precisas, reduciendo la carga de trabajo de nuestro equipo y mejorando la satisfacción del cliente. Ha sido un cambio revolucionario para nuestras operaciones.
+        role: Co Fundador de Barich Beauty
+        name: Simon Khoury
     pricing:
       topper: Precios
       headline: Precios sencillos para cada empresa
