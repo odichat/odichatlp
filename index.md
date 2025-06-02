@@ -57,7 +57,7 @@ image: "/assets/images/logo_open_graph.png"
 <!-- ************************* -->
 <!-- Logos -->
 <!-- ************************* -->
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
       <img class="col-span-2 max-h-22 w-full object-contain lg:col-span-1" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/el_barich_2.png" alt="Transistor" width="158" height="48">
@@ -71,7 +71,7 @@ image: "/assets/images/logo_open_graph.png"
 <!-- ************************* -->
 <!-- Problem / Pain Section -->
 <!-- ************************* -->
-<!-- <div class="overflow-hidden bg-white py-24 sm:py-32">
+<!-- <div class="overflow-hidden bg-white py-16 sm:py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:ml-auto lg:pt-4 lg:pl-4">
@@ -92,7 +92,7 @@ image: "/assets/images/logo_open_graph.png"
 <!-- ************************* -->
 <!-- Value Proposition / Solution Section -->
 <!-- ************************* -->
-<!-- <div class="overflow-hidden bg-white py-24 sm:py-32">
+<!-- <div class="overflow-hidden bg-white py-16 sm:py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pt-4 lg:pr-8">
@@ -143,7 +143,7 @@ image: "/assets/images/logo_open_graph.png"
 <!-- ************************* -->
 <!-- How It Works -->
 <!-- ************************* -->
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-16 sm:py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl sm:text-center">
       <h2 class="text-base/7 font-semibold text-info bg-gradient-to-r from-gray-700 to-gray-500 inline-block text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500">
@@ -167,7 +167,7 @@ image: "/assets/images/logo_open_graph.png"
 <!-- ************************* -->
 <!-- Testimonials -->
 <!-- ************************* -->
-<section class="bg-white py-24 sm:py-32">
+<section class="bg-white py-16 sm:py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="topper">{% t pages.home.testimonials.topper %}</h2>
@@ -183,7 +183,7 @@ image: "/assets/images/logo_open_graph.png"
             <p>“{% t pages.home.testimonials.katys.text %}”</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
-            <img class="size-14 rounded-full bg-gray-50" src="{{ '/assets/images/hacobo.png' | relative_url }}" alt="">
+            <img class="size-14 rounded-full bg-gray-50 object-cover" src="{{ '/assets/images/hacobo.png' | relative_url }}" alt="">
             <div class="text-base">
               <div class="font-semibold text-gray-900">{% t pages.home.testimonials.katys.name %}</div>
               <div class="mt-1 text-gray-500">{% t pages.home.testimonials.katys.role %}</div>
@@ -192,13 +192,13 @@ image: "/assets/images/logo_open_graph.png"
         </figure>
       </div>
       <div class="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-8 xl:pl-20">
-        <img class="h-12 self-start" src="https://playground.laodisea.ai/assets/images/smd.jpg" alt="">
+        <img class="h-12 self-start" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/el_barich_2.png" alt="">
         <figure class="mt-10 flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
             <p>“{% t pages.home.testimonials.smd.text %}”</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
-            <img class="size-14 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            <img class="size-14 rounded-full bg-gray-50 object-cover" src="{{ '/assets/images/simon.jpeg' | relative_url }}" alt="">
             <div class="text-base">
               <div class="font-semibold text-gray-900">{% t pages.home.testimonials.smd.name %}</div>
               <div class="mt-1 text-gray-500">{% t pages.home.testimonials.smd.role %}</div>
