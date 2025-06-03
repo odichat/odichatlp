@@ -7,7 +7,7 @@ components:
 pages:
   home:
     hero:
-      headline: No vuelvas a perder un lead
+      headline: No vuelvas a perder una venta
       subheadline: Odichat es el constructor de chatbots de IA sin código que entrena a tu agente de servicio al cliente y lo despliega en WhatsApp — para que puedas atender a cada cliente, 24/7, sin mover un dedo.
       cta: Entrena tu agente de IA de WhatsApp
       secondary_cta: Precios
