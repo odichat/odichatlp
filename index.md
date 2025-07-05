@@ -155,9 +155,16 @@ image: "/assets/images/logo_open_graph.png"
   </div>
   <div class="relative overflow-hidden pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <img src="https://odisea.nyc3.cdn.digitaloceanspaces.com/assets/screenshot_playground.jpeg" alt="App screenshot" class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10" width="2432" height="1442">
-      <div class="relative" aria-hidden="true">
-        <div class="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]"></div>
+      <div class="aspect-[2432/1442] max-w-full rounded-xl shadow-2xl ring-1 ring-gray-900/10 overflow-hidden">
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/i-8cqBU6fO8?si=M5SOD3pZVn-qKOJI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
       </div>
     </div>
   </div>
@@ -180,7 +187,7 @@ image: "/assets/images/logo_open_graph.png"
         <img class="h-12 self-start" src="https://laodisea.ai/assets/img/katys_logo_gray.png" alt="">
         <figure class="mt-10 flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
-            <p>“{% t pages.home.testimonials.katys.text %}”</p>
+            <p>"{% t pages.home.testimonials.katys.text %}"</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
             <img class="size-14 rounded-full bg-gray-50 object-cover" src="{{ '/assets/images/hacobo.png' | relative_url }}" alt="">
@@ -195,7 +202,7 @@ image: "/assets/images/logo_open_graph.png"
         <img class="h-12 self-start" src="https://conversalo.nyc3.cdn.digitaloceanspaces.com/el_barich_2.png" alt="">
         <figure class="mt-10 flex flex-auto flex-col justify-between">
           <blockquote class="text-lg/8 text-gray-900">
-            <p>“{% t pages.home.testimonials.smd.text %}”</p>
+            <p>"{% t pages.home.testimonials.smd.text %}"</p>
           </blockquote>
           <figcaption class="mt-10 flex items-center gap-x-6">
             <img class="size-14 rounded-full bg-gray-50 object-cover" src="{{ '/assets/images/simon.jpeg' | relative_url }}" alt="">
