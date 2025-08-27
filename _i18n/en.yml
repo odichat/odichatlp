@@ -32,23 +32,24 @@ pages:
       subheadline: No hidden fees, no contracts, no surprises.
       pro:
         name: Pro
-        price: "19.99"
-        description: The perfect plan if you multiple phone numbers to manage.
+        price: "39.99"
+        description: The perfect plan to automate one phone number.
+        cta_link: "https://dashboard.odichat.app"
         features:
-          - 3 AI agents
+          - GPT-5 powered AI Chatbot
           - Unlimited chats
-          - 7 OpenAI models to choose from
+          - Chat intervention
+          - Currency conversion
           - Priority support
-          - Advanced analytics (coming soon)
-          - Schedule appointments (coming soon)
-        cta: Get Started
-      starter:
-        name: Starter
-        price: "9.99"
-        description: A plan to get your feet wet with AI customer service automation.
-        features:
-          - 1 AI agent
-          - 100 chats per month
-          - 3 OpenAI models to choose from
           - Basic analytics (coming soon)
+        cta: Get Started
+      premium:
+        name: Premium
+        price: "69.99"
+        description: The perfect plan if you multiple phone numbers to manage.
+        cta_link: "https://dashboard.odichat.app"
+        features:
+          - Everything in Pro +
+          - 3 Chatbots
+          - Advanced analytics (coming soon)
         cta: Get Started

@@ -14,7 +14,7 @@ pages:
     how_it_works:
       topper: Cómo Funciona
       headline: Automatiza WhatsApp en 3 Pasos Simples
-      subheadline: Sube tus documentos (FAQs, listas de precios, políticas, etc.). Entrena a tu agente de IA de Odichat con unos pocos clics y desplíalo directamente a tu cuenta de WhatsApp Business.
+      subheadline: Sube tus documentos (FAQs, listas de precios, políticas, etc.). Entrena a tu agente de IA de Odichat con unos pocos clics e integralo directamente a tu cuenta de WhatsApp Business.
     testimonials:
       topper: Testimonios
       headline: Empresas que usan Odichat para automatizar WhatsApp
@@ -32,23 +32,24 @@ pages:
       subheadline: Sin tarifas ocultas, sin contratos, sin sorpresas.
       pro:
         name: Pro
-        price: "19.99"
-        description: El plan perfecto si tienes varios números de teléfono para gestionar.
+        price: "39.99"
+        description: El plan perfecto para automatizar un número de teléfono.
+        cta_link: "https://dashboard.odichat.app/subscriptions/checkout?price_id=YOUR_PRO_PRICE_ID_ES"
         features:
-          - 3 agentes de IA
+          - Chatbot de IA potenciado por GPT-5
           - Chats ilimitados
-          - 7 modelos de OpenAI para elegir
+          - Intervención en chats
+          - Conversión de moneda
           - Soporte prioritario
-          - Analíticas avanzadas (próximamente)
-          - Programar citas (próximamente)
-        cta: Comenzar
-      starter:
-        name: Starter
-        price: "9.99"
-        description: Un plan para iniciarte en la automatización del servicio al cliente con IA.
-        features:
-          - 1 agente de IA
-          - 100 chats por mes
-          - 3 modelos de OpenAI para elegir
           - Analíticas básicas (próximamente)
+        cta: Comenzar
+      premium:
+        name: Premium
+        price: "69.99"
+        description: El plan perfecto para automatizar multiples números de teléfono.
+        cta_link: "https://dashboard.odichat.app/subscriptions/checkout?price_id=price_1ROirkCrK57Omz3A7fg881pg"
+        features:
+          - Todo en Pro +
+          - 3 Chatbots
+          - Analíticas avanzadas (próximamente)
         cta: Comenzar
