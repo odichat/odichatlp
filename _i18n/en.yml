@@ -45,7 +45,7 @@ pages:
         cta: Get Started
       premium:
         name: Premium
-        price: "69.99"
+        price: "79.99"
         description: The perfect plan if you multiple phone numbers to manage.
         cta_link: "https://dashboard.odichat.app"
         features:

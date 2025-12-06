@@ -45,7 +45,7 @@ pages:
         cta: Comenzar
       premium:
         name: Premium
-        price: "69.99"
+        price: "79.99"
         description: El plan perfecto para automatizar multiples números de teléfono.
         cta_link: "https://dashboard.odichat.app/subscriptions/checkout?price_id=price_1ROirkCrK57Omz3A7fg881pg"
         features:
